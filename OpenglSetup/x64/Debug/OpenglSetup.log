@@ -1,0 +1,18 @@
+﻿Build started 30/03/2015 13:03:31.
+     1>Project "c:\Users\Oliver\documents\visual studio 2013\Projects\OpenglSetup\OpenglSetup\OpenglSetup.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\OpenglSetup.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         E:\DEV\New folder\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\Oliver\Documents\Visual Studio 2013\Projects\OpenglSetup\OpenglSetup\OpenglExternal\glew\include\GL" /I"C:\Users\Oliver\Documents\Visual Studio 2013\Projects\OpenglSetup\OpenglSetup\OpenglExternal\glfw\include\GLFW" /AI"&(ProjectDir)OpenglExternal\glfw-3.1.1.bin.WIN64\include\GLFW" /AI"&(ProjectDir)OpenglExternal\glew-1.12.0\include\GL" /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         E:\DEV\New folder\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\oliver\documents\visual studio 2013\Projects\OpenglSetup\x64\Debug\OpenglSetup.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Oliver\Documents\Visual Studio 2013\Projects\OpenglSetup\OpenglSetup\OpenglExternal\glfw\lib-vc2013" /LIBPATH:"C:\Users\Oliver\Documents\Visual Studio 2013\Projects\OpenglSetup\OpenglSetup\OpenglExternal\glew\lib\Release\x64" opengl32.lib glu32.lib glew32.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\oliver\documents\visual studio 2013\Projects\OpenglSetup\x64\Debug\OpenglSetup.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\oliver\documents\visual studio 2013\Projects\OpenglSetup\x64\Debug\OpenglSetup.lib" /MACHINE:X64 x64\Debug\main.obj
+         OpenglSetup.vcxproj -> c:\users\oliver\documents\visual studio 2013\Projects\OpenglSetup\x64\Debug\OpenglSetup.exe
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\OpenglSetup.tlog\unsuccessfulbuild".
+         Touching "x64\Debug\OpenglSetup.tlog\OpenglSetup.lastbuildstate".
+     1>Done Building Project "c:\Users\Oliver\documents\visual studio 2013\Projects\OpenglSetup\OpenglSetup\OpenglSetup.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.85
